@@ -38,7 +38,7 @@ these program(s) and/or file(s).
 
 ## Installation and Configuration
 
-###### Installation
+#### Installation
 
 With this installation package there is a plugin installation file named:
  - dynamic_action_type_plugin_com_skillbuilders_session_timeout.sql.
@@ -48,7 +48,7 @@ upload and install the plugin using the file above. After the plugin has been in
 will be redirected to the plugin edit screen. There is a Settings region on the page that allows you to
 change how the plugin works (see Settings below).
 
-###### Configuration
+#### Configuration
 
 Configuration of the session idle time is done via the security settings of the application. Navigate to
 “Shared Components > Security” and look for the settings named Maximum Session Idle Time in
@@ -78,11 +78,11 @@ the plugin from being includes on those pages as the parent/opening page should 
 
 ## Settings
 
-###### Application Settings
+##### Application Settings
 Application settings are used to configure all instances of a plugin within an application. These settings
 are accessed by editing the plugin within the Shared Components. This plug in has the following application settings:
 
-###### Session Timeout Action
+##### Session Timeout Action
 
 Use this setting to control what action the plugin should perform when the user’s idle time expires.
     - Alert (default) - will display an alert message on the screen when the user’s session expires.
@@ -97,36 +97,36 @@ Use this setting to control what action the plugin should perform when the user�
       If no Logout URL is defined then the following value will be used:
       apex_authentication.logout?p_app_id=&APP_ID.&p_session_id=&SESSION.
 
-###### Session Timeout Message
+##### Session Timeout Message
 
 Use this setting to configure the messaged displayed to the user when their session expires. This setting will only be available if the
 Session Timeout Action is set to Alert.
 
-###### Mask Browser Screen on Timeout
+##### Mask Browser Screen on Timeout
 
 Use this setting to spec if whether or not the contents of the screen should be hidden when the user’s session expires. This setting will only be available if the
 Session Timeout Action is set to Alert.
 
-###### Session Idle Warning
+##### Session Idle Warning
 
 Use this setting to choose whether or not the user should receive a warning message prior to their session expiring.
 
-###### Session Idle Title
+##### Session Idle Title
 
 Use this setting to specify what title should be used for the modal dialog displayed to the user prior to
 their session expiring. This setting will only be available if the Session Idle Warning is set to Yes.
 
-###### Session Idle Message
+##### Session Idle Message
 
 Use this setting to specify what message should be displayed to the user prior to their session expiring.
 This setting will only be available if the Session Idle Warning is set to Yes.
 
-###### Show Warning Seconds Before
+##### Show Warning Seconds Before
 
 Use this setting to specify the number of seconds before the user’s session expires that the warning message should be displayed.
 This setting will only be available if the Session Idle Warning is set to Yes.
 
-###### Keep Session Alive
+##### Keep Session Alive
 
 Use this setting to specify whether or not the plug - in should keep the user’s session alive on the server side if activity is detected on the client side.
 
@@ -136,7 +136,7 @@ SkillBuilders is known for excellent IT training and consulting. Our instructors
 
 ### About the Authors
 
-###### Dan McGhan
+##### Dan McGhan
 
 Dan is a Senior Developer and Instructor with SkillBuilders. He suffers from Compulsive Programing Disorder which is believed to be linked to his balding. Having started his development career in the land of MySQL and PHP, he was only too happy to have stumbled upon APEX. Since then, he’s dedicated his programming efforts to learning more about Oracle and web based technologies in general. 
 
@@ -144,7 +144,7 @@ Dan is an Oracle Application Express Certified Expert, an Oracle PL/SQL Develope
 
 When not programming, Dan may be found studying languages other than those used for development, notably Spanish. He’s also been sited at various venues dancing Salsa with his wife, Sonia, and even enjoying an occasional cigar, a time when Sonia prefers not to be around.
 
-###### Tyson Jouglet
+##### Tyson Jouglet
 
 Tyson Jouglet is a relatively young techie who went to school wanting to become a Java developer. Despite spending numerous hours learning about Java and how to be a better object oriented programmer, his very first job in the programming world was working with Oracle Application Express (APEX) for a company in San Diego CA. 
 
