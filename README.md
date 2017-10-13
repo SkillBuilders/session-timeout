@@ -6,15 +6,13 @@ Usually when this type of functionality is added to a site, say a bank’s web s
 
 Features at a Glance
 
-    Configurable timeout actions including alert, redirect, and logout
-    Optional and configurable warning message
-    Option to keep session alive if user isn’t truly idle. Special thanks to Martin D’Souza for a great idea on how to implement this feature.
+- Configurable timeout actions including alert, redirect, and logout
+- Optional and configurable warning message
+- Option to keep session alive if user isn’t truly idle. Special thanks to Martin D’Souza for a great idea on how to implement this feature.
+
 Version History
-
-
-
-1.0.0 – 2/21/2012 Initial release
-1.0.1 - 3/17/2012 Fixed bug that raised “ORA-01008: not all variables bound” exception on some systems
+- 1.0.0 – 2/21/2012 Initial release
+- 1.0.1 - 3/17/2012 Fixed bug that raised “ORA-01008: not all variables bound” exception on some systems
                   (thanks to Mohannad Amarnh for identifying the issue)
                   Added CSS to hide close button on modal dialog
 
