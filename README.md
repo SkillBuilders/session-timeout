@@ -87,13 +87,12 @@ are accessed by editing the plugin within the Shared Components. This plug in ha
 Use this setting to control what action the plugin should perform when the user’s idle time expires.
 
 * Alert (default) will display an alert message on the screen when the user’s session expires. After dismissing the alert message, the       user will be redirected to the URL specified in the On session idle time timeout direct to this URL attribute in the security settings of the application.
-
-If no value has been specified for that attribute then the user will be redirected to the URL defined in the Home Link attribute.
+ If no value has been specified for that attribute then the user will be redirected to the URL defined in the Home Link attribute.
 
 * Redirect will redirect the user to the URL specified in the “On session idle time timeout direct to this URL” attribute in the security settings of the application. If no value has been specified for that attribute then the user will be redirected to the URL defined in the Home Link attribute.
 
 * Logout - will redirect the user to the Logout URL defined in the applications authentication scheme.  If no Logout URL is defined then the following value will be used:
-- apex_authentication.logout?p_app_id=&APP_ID.&p_session_id=&SESSION.
+  - apex_authentication.logout?p_app_id=&APP_ID.&p_session_id=&SESSION.
 
 ##### Session Timeout Message
 
