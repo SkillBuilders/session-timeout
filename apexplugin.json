@@ -1,0 +1,33 @@
+{
+  "name" : "SkillBuilders Session Timeout",
+  "version" : "1.0.0",
+  "description" : "For a while now APEX has had a “Maximum Session Idle Time in Seconds” attribute in the Security Settings of an application. . The SkillBuilders Session Timeout plug-in adds this type of client side behavior to APEX applications quickly and easily.",
+  "keywords" : ["Timeout", "Session", "Idle", "Time", "Security"],
+  "homepage" : "https://github.com/SkillBuilders/session-timeout",
+  "bugs" : {
+    "url" : "https://github.com/SkillBuilders/session-timeout/issues",
+    "email" : "plugins@skillbuilders.com"
+  },
+  "license" : "MIT",
+  "author" : {
+    "name" : "SkillBuilders",
+    "email" : "plugins@skillbuilders.com",
+    "url" : "http://www.skillbuilders.com"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/SkillBuilders/session-timeout"
+  },
+  "oracle" : {
+    "versions" : ["11.2.0.1", "12.1.0.1","12.1.0.2.0"],
+    "apex" : {
+      "versions" : ["5.1.x"],
+      "plugin" : {
+        "internalName" : "COM.SKILLBUILDERS.SESSION.TIMEOUT",
+        "type" : "Dynamic Action",
+        "demo" : "https://apex.skillbuilders.com/demo/f?p=PLUGIN_DEMOS:SESSION_TIMEOUT",
+        "previewImage" : "https://raw.githubusercontent.com/SkillBuilders/session-timeout/master/preview.png"
+      }
+    }
+  }
+}
