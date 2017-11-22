@@ -1,0 +1,35 @@
+{
+  "name": "session-timeout",
+  "version": "1.3.0",
+  "description": "For a while now APEX has had a `Maximum Session Idle Time in Seconds` attribute in the Security Settings of an application. As one might imagine, this setting allows developers to kill a user’s session if the user has been idle for a certain amount of time. The problem, however, is that the implementation of this feature is purely server side (which is good from a security perspective).",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "SkillBuilders",
+  "license": "MIT",
+  "devDependencies": {
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sourcemaps": "^2.6.1",
+    "gulp-uglify": "^3.0.0",
+    "gulp-zip": "~3.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SkillBuilders/session-timeout.git"
+  },
+  "keywords": [
+    "apex",
+    "dynamic_action",
+    "webdev",
+    "plugin",
+    "plsql"
+  ],
+  "bugs": {
+    "url": "https://github.com/SkillBuilders/session-timeout/issues"
+  },
+  "homepage": "https://github.com/SkillBuilders/session-timeout#readme"
+}
