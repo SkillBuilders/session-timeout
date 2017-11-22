@@ -1,11 +1,14 @@
 # SkillBuilders Session Timeout Plugin For APEX
 For a while now APEX has had a `Maximum Session Idle Time in Seconds` attribute in the Security Settings of an application. As one might imagine, this setting allows developers to kill a user’s session if the user has been idle for a certain amount of time. The problem, however, is that the implementation of this feature is purely server side (which is good from a security perspective).
 
+
 Usually when this type of functionality is added to a site, say a bank’s web site, there’s some client side behavior added in addition to the server side behavior. This client side functionality may let a user know that their session has expired or even warn a user before it does. The SkillBuilders Session Timeout plug-in adds this type of client side behavior to APEX applications quickly and easily.
 
 ## Features at a Glance
 
 - Configurable [timeout actions](#session-timeout-action) including alert, redirect, and logout
+
+
 - Optional and configurable warning message
 - Option to keep session alive if user isn’t truly idle. Special thanks to Martin D’Souza for a great idea on how to implement this feature.
 
@@ -34,6 +37,7 @@ Add a `Global Page` to your application if it doesn’t already exist. `A Global
 1. Set Event to `Page Load`
 1. Add a true action `SkillBuilders Session Timeout[Plug-in]`
 1. Add the server side condition PL/SQL Expression: `apex_page.page_mode(:APP_ID,:APP_PAGE_ID) = 'NORMAL'`. This prevents the dynamic action from being added to modal or popup pages.
+
 
 ## Settings
 
