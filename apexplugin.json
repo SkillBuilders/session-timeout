@@ -24,8 +24,8 @@
       "versions" : ["5.1.x"],
       "plugin" : {
         "internalName" : "COM.SKILLBUILDERS.SESSION.TIMEOUT",
-        "type" : "Dynamic Action",
-        "demo" : "https://apex.skillbuilders.com/demo/f?p=PLUGIN_DEMOS:SESSION_TIMEOUT",
+        "type" : "dynamic action",
+        "demo" : "https://apex.oracle.com/pls/apex/f?p=44923",
         "previewImage" : "https://raw.githubusercontent.com/SkillBuilders/session-timeout/master/preview.png"
       }
     }
