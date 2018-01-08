@@ -36,7 +36,7 @@ Add a `Global Page` to your application if it doesn’t already exist. `A Global
 1. Enter any name you would like to use e.g. Idle Session Handler
 1. Set Event to `Page Load`
 1. Add a true action `SkillBuilders Session Timeout[Plug-in]`
-1. Add the server side condition PL/SQL Expression: `apex_page.page_mode(:APP_ID,:APP_PAGE_ID) = 'NORMAL'`. This prevents the dynamic action from being added to modal or popup pages.
+1. Add the server side condition PL/SQL Expression: [`apex_page.get_page_mode(:APP_ID,:APP_PAGE_ID) = 'NORMAL'`](https://docs.oracle.com/database/apex-5.1/AEAPI/GET_PAGE_MODE-Function.htm#AEAPI30181). This prevents the dynamic action from being added to modal or popup pages.
 
 
 ## Settings
