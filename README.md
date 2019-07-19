@@ -16,7 +16,8 @@ Usually when this type of functionality is added to a site, say a bank’s web s
 
 - **1.0.0 - 02/21/2012:** Initial release
 - **1.0.1 - 03/17/2012:** Fixed bug that raised “ORA-01008: not all variables bound” exception on some systems
-- **1.3.0 - 08/11/2017:** Added 5.1 compatability                  
+- **1.3.0 - 08/11/2017:** Added 5.1 compatability
+- **1.4.0 - 07/19/2019:** Fixed min version file references   
 
 ## Installation and Configuration
 
