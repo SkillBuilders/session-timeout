@@ -321,7 +321,7 @@
             uiw.options.ajaxIdentifier,
             {},
             {
-               dateType: 'text',
+               dataType: 'text',
                success: function(data){
                   apex.debug('Ajax request successful');
                   clearTimeout(uiw._values.pingID);

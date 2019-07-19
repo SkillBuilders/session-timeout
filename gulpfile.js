@@ -10,7 +10,7 @@
   const del = require('del');
 
   const config = {
-    masterFileName : 'apex-super-lov',
+    masterFileName : 'apex-session-timeout',
     paths : {
       outputdir:'dist',
       builddir:'build',
