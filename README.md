@@ -82,7 +82,7 @@ Use this setting to specify the number of seconds before the user’s session ex
 
 ##### Keep Session Alive
 
-If their is any client side activity then the server will be notified and the current timeout duration will be reset. Use this if you would like to periodically refresh the users session without needing to submit the page
+If there is any client side activity then the server will be notified and the current timeout duration will be reset. Use this if you would like to periodically refresh the users session without needing to submit the page
 
 ## License
 MIT © [SkillBuilders](http://skillbuilders.com)
